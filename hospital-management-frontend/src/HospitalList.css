@@ -1,0 +1,48 @@
+/* HospitalList Component */
+.list-group-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    margin-left: 10px;
+  }
+  
+  button.btn-secondary {
+    background-color: #6c757d;
+  }
+  
+  button.btn-danger {
+    background-color: #dc3545;
+  }
+  
+  button.btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
+  button.btn-danger:hover {
+    background-color: #c82333;
+  }
+  .no-records {
+    color: #dc3545;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+
+  .hospital-images {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .hospital-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
